@@ -197,7 +197,6 @@ public class MainFragment extends Fragment implements PokemonRecyclerViewListAda
         Intent intent = new Intent(getActivity(), DetailActivity.class);
         intent.putExtra(EXTRA_NAME_PARAM, namePoke);
         intent.putExtra(EXTRA_IMAGE_PARAM, imagePoke);
-        Toast.makeText(getActivity(), imagePoke, Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 
